@@ -1,29 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <title>titulo de la pagina</title>
 </head>
 
 <body>
-    <header>
-    <h1>Estamos en vio !Hola Mundo!</h1> 
-    <h2>Mi pagina</h2>
+    <header id="home">
+        <div id="siteName">
+            <h1>Estamos en vio !Hola Mundo!</h1>
+            <h2>Mi pagina</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li>
+                    <a href="https://github.com/Rafa4mendoza" target="_blank">Github</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-<article>
-    <h2> ¿Quien soy?</h3>
-        <p>Me llamo Rafael Mendoza y me dicen Rafa.</p>
+    
+    <section id="welcome" class="box">
+        <article id="aboutMe">
+            <div id="profilePic">
+                <img src="assets/img/profile.jpg" alt="RafaMendozaPerfil" width="500px" height="auto" />
+            </div>
+            <h3>¿Quien soy?</h3>
+            <p>Me llamo Rafael Mendoza y me dicen Rafa.</p>
 
-    <h2>¿De done soy?</h2>
-    <p>Soy de Piedras Negras Coah y eh vivido en Monterrey por 8 años.</p>
+            <h3>¿De done soy?</h3>
+            <p>Soy de Piedras Negras Coah y eh vivido en Monterrey por 8 años.</p>
 
-    <h2>¿Cuales son mis pasatiempos?</h2>
-    <p>Me gusta leer libros de Fantasia, Misterio, Tecnologia.</p>
+            <h3>¿Cuales son mis pasatiempos?</h3>
+            <p>Me gusta leer libros de Fantasia, Misterio, Tecnologia.</p>
 
-    <h2>¿Algun dato curioso mio?</h2>
-    <p>Nunca me llamo la atencion tener gatos hasta esta pandemia que tengo 3 gatos :3</p>
-</article>   
+            <h3>¿Algun dato curioso mio?</h3>
+            <p>
+                Nunca me llamo la atencion tener gatos hasta esta pandemia que tengo 3
+                gatos :3
+            </p>
+        </article>
+    </section>
+    <main>
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, qui?
+            </p>
+        </section>
+    
+    <section id="skillSet">
+        <h2>Skill Set</h2>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>Numero</td>
+                    <td>Skill</td>
+                    <td>Conocimiento</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Html</td>
+                    <td>***********</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Css</td>
+                    <td>****</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </main>
 </body>
+
 </html>
