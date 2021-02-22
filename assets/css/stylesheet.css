@@ -60,11 +60,11 @@ nav a:hover{
 }
 
 main{
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }
 section{
     margin-top: 20px;
@@ -140,4 +140,72 @@ overflow: hidden
     color: rgb(247, 156, 20);
     transition: 0.5s;
     font-size: 50px;
+}
+
+@media (max-width: 640px){
+    header{
+        background-color: #2C3531;
+        flex-direction: column;
+    }
+    h1{
+        font-size: x-large;
+    }
+    .principal{
+        color: #D1E8E2;
+    }
+    nav a{
+        padding: 5px;
+    }
+
+    nav a:hover{
+        background-color: #FFCB9A;
+    }
+
+    img{
+        width: 150px;
+        border-radius: 100px;
+    }
+
+    section{
+        background-color: #116466;
+    }
+}
+
+@media (max-width: 1007px) and (min-width: 641px){
+    header{
+        background-color: #272727;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .principal{
+        color: #FF6525;
+    }
+
+    nav a{
+        padding: 5px;
+    }
+
+    nav a:hover{
+        background-color: #FFE400;
+    }
+
+    img{
+        width: 200px;
+        border-radius: 30px;
+    }
+
+    main{
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: row;
+    }
+
+    .mediumSection{
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
